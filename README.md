@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# smart-logistics-optimization-system
-=======
 # Smart Logistics Optimization System
 
 A system designed to optimize logistics operations using advanced algorithms and technologies.
@@ -71,4 +68,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## Contact
 
 For questions or feedback, please contact Siddharth Patel at [connectwithsiddh@example.com](mailto:connectwithsiddh@example.com).
->>>>>>> 91387a2 (Initialize project repository)
