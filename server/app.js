@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const app = express();
-const PORT = 5000;
+const PORT = 4000;
 const MONGO_URI = 'mongodb://localhost:27017/smart-logistics';
 
 // Middleware
@@ -16,12 +16,9 @@ app.get('/', (req, res) => {
 });
 
 // Connect to MongoDB
-mongoose.connect(MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(MONGO_URI, {})
 .then(() => {
-  console.log('Connected to MongoDB');
+  console.log('MongoDB Connected Successfully!');
 })
 .catch((err) => {
   console.error('Failed to connect to MongoDB', err);

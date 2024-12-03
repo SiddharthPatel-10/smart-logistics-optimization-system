@@ -1,0 +1,20 @@
+{
+  "name": "smart-logistics-optimization-system",
+  "version": "1.0.0",
+  "description": "A system designed to optimize logistics operations using advanced algorithms and technologies.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
